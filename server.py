@@ -13,7 +13,7 @@ def home ():
 
 @app.route('/destroy_session')
 def destroy_session ():
-    session.pop("count")
+    session.clear()
     return redirect(url_for('home'))
 
 app.run(debug=True)
