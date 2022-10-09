@@ -1,0 +1,42 @@
+html, body{
+    padding:0;
+    margin:0;
+}
+
+.outer{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 70px;
+    padding-top: 20px;
+}
+
+.button{
+    padding: 5px;
+    border: 2px solid grey;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.click{
+    background-color: blue;
+}
+
+.click:hover {
+    background-color: gold;
+}
+
+.reset{
+    background-color: red;
+}
+
+.reset:hover {
+    background-color: teal;
+}
